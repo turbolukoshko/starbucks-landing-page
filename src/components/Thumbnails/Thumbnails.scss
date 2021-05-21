@@ -1,0 +1,20 @@
+.thumbs {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+  &__item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover {
+      transform: translateY(-15px);
+    }
+    img {
+      max-width: 60px;
+    }
+  }
+}

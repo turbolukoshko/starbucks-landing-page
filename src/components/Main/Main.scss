@@ -1,0 +1,46 @@
+.main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .content {
+    position: relative;
+    max-width: 600px;
+    .title {
+      color: #333;
+      font-size: 4em;
+      line-height: 1.4em;
+      font-weight: 500;
+      &__info {
+        color: #333;
+        &-keyword {
+          color: #017143;
+          font-size: 1.2em;
+          font-weight: 900;
+        }
+      }
+      &__link {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 8px 20px;
+        background: #017143;
+        color: #fff;
+        border-radius: 40px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+      }
+    }
+  }
+  &__img {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+    img {
+      max-width: 340px;
+    }
+  }
+}
